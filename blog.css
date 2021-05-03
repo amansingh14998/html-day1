@@ -1,0 +1,32 @@
+body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .main-header{
+            background: white url("img/") no-repeat scroll top left;
+            padding: 12px;
+            color: white;
+        }
+        .main-nav{
+            background-color: black;
+            padding: 5px;
+            position: sticky;
+            top: 0;
+        }
+        .main-nav a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        .main-nav a:hover{
+            background: linear-gradient(45deg,black,orangered);
+            border-radius: 50px;
+            box-shadow: 0 0 5px white;
+        }
+        .main-nav a.active{
+            background: linear-gradient(45deg,black,darkred);
+            border-radius: 50px;
+            box-shadow: 0 0 5px white;
+        }
